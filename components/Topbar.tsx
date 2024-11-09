@@ -7,18 +7,18 @@ const Topbar = () => {
       <nav className="flex justify-between items-center px-4 md:px-10">
         <div className="flex">
           <Link href="/" className="text-xl font-bold">
-            ViBA
+            WeMakeWebs
           </Link>
         </div>
         <div className="flex-1 flex justify-center space-x-4">
-          <Link href="/blog" className="hover:text-accent">
-            Blog
-          </Link>
-          <Link href="/events" className="hover:text-accent">
-            Events
-          </Link>
           <Link href="/about" className="hover:text-accent">
             About Us
+          </Link>
+          <Link href="/services" className="hover:text-accent">
+            Services
+          </Link>
+          <Link href="/contact" className="hover:text-accent">
+            Contact
           </Link>
         </div>
 
